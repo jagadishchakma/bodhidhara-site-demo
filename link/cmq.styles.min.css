@@ -1,0 +1,96 @@
+ /*
+Author: jqueryscript.net
+URI: https://www.jqueryscript.net
+*/
+ 
+	.menu-button {
+		padding: 10px;
+		border: none;
+		cursor: pointer;
+		transition: 0s;
+		border-radius: 2px;
+		width: auto;
+	}
+	.burger-icon {
+		position: relative;
+		margin-top: 10px;
+		margin-bottom: 10px;
+		-webkit-user-select: none;
+		-moz-user-select: none;
+		-ms-user-select: none;
+		user-select: none;
+	}
+	.burger-icon,.burger-icon::before,.burger-icon::after {
+		display: block;
+		width: 30px;
+		height: 4px;
+		background-color: black;
+		outline: 1px solid transparent;
+		-webkit-transition-property: background-color,-webkit-transform;
+		-moz-transition-property: background-color, -moz-transform;
+		-o-transition-property: background-color, -o-transform;
+		transition-property: background-color, transform;
+		-webkit-transition-duration: 0s;
+		-moz-transition-duration: 0s;
+		-o-transition-duration: 0s;
+		transition-duration: 0s;
+	}
+	.burger-icon::before,.burger-icon::after {
+		position: absolute;
+		content: "";
+	}
+	.burger-icon::before {
+		top: -10px;
+	}
+	.burger-icon::after {
+		top: 10px;
+	}
+			
+	.menu-button.is-active .burger-icon {
+		background-color: transparent;
+	}
+	.menu-button.is-active .burger-icon::before {
+		-webkit-transform: translateY(10px) rotate(45deg);
+		-moz-transform: translateY(10px) rotate(45deg);
+		-ms-transform: translateY(10px) rotate(45deg);
+		-o-transform: translateY(10px) rotate(45deg);
+		transform: translateY(10px) rotate(45deg);
+	}
+	.menu-button.is-active .burger-icon::after {
+		-webkit-transform: translateY(-10px) rotate(-45deg);
+		-moz-transform: translateY(-10px) rotate(-45deg);
+		-ms-transform: translateY(-10px) rotate(-45deg);
+		-o-transform: translateY(-10px) rotate(-45deg);
+		transform: translateY(-10px) rotate(-45deg);
+	}
+		
+	.menu-content {
+		transform: translate(-100%, 0);
+		z-index: 50;
+		top: 64px;
+		left: 0;
+		right: 0;
+		bottom: 0;
+		background: rgba(0,0,0,.5);
+		position: fixed;
+	}
+	.menu-list{
+		background: white;
+		height: 350px;
+		width: 100%;
+	}
+	.menu-content.open {
+		transform: translate(0, 0);
+		transition: all 0s;
+		transition-timing-function: cubic-bezier(0.62, 0.04, 0.82, 0.13);
+		width: 100%;
+		box-shadow: 5px 5px 15px 0 rgba(0, 0, 0, 0.1)
+	}
+	.menu-content.close {
+		transform: translate(-100%, 0);
+		transition: all 0s;
+		transition-timing-function: cubic-bezier(0.62, 0.04, 0.82, 0.13);
+		text-shadow: none;
+		width: 0;
+	}
+ 

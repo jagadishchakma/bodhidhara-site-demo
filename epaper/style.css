@@ -1,0 +1,499 @@
+/* All CSS */
+.section {
+	margin-top: 20px;
+	position: relative;
+}
+.header-bar {
+    overflow: hidden;
+}
+.h-b-o {
+	height: 20px;
+	background: red;
+}
+.hbo-talk {
+	height: 80px;
+	background: orange;
+}
+.hbo-left-talk {
+    float: left;
+    padding: 15px;
+}
+.hbo-right-talk {
+    float: right;
+    padding: 25px;
+}
+
+.page-title {
+    padding: 15px;
+    font-size: 30px;
+}
+.member .line{
+	border-top: 2px solid gray;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+.circular {
+    font-weight: bold;
+    background: #bbb9b9;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	padding: 5px;
+	box-shadow: 2px 2px 2px 2px blue;
+}
+.page{
+	position: static;
+}
+.page-num {
+    padding: 15px;
+    font-size: 20px;
+    background: #fff;
+    text-align: center;
+    margin: 5px;
+    width: 190px;
+    border-radius: 30px;
+}
+.page-num:hover {
+    background: #bbac91;
+	color:#f9f4f4;
+	box-shadow: 2px 2px 2px 2px #39393e;
+	cursor: pointer;
+}
+.sub-menu-toggle:before{
+	font-family: 'Glyphicons Halflings';
+	content:"\e114";
+	font-size: 24px;
+	position: relative;
+	top: 5px;
+}
+
+.secondary-menu-toggle.opened:before {
+	content:"\e113";
+	position: relative;
+	top: 5px;
+}
+.page-num-toggle {
+    right: 0;
+    left: 0;
+    top: 95px;
+    box-shadow: 0px 4px 5px #000;
+	position: absolute;
+	height: auto;
+	z-index: 5;
+	background:#fff;
+	display: none;
+	padding: 5px;
+}
+.page-num-toggle ul li{
+	float: left;
+	margin: 2px;
+	list-style: none;
+	padding: 3px;
+	border: 1px solid gray;
+}
+footer .color2 {
+    background: #883e3e;
+	color:#fff;
+    text-align: center;
+    padding: 5px;
+}
+footer .color1 {
+    background: #009fff;
+    height: 20px;
+}
+.bn-ad-title {
+    font-size: 25px;
+    background: #2e5321;
+	padding: 10px;
+	text-align: center;
+	color:#fff;
+}
+.bn-ad-desc {
+    text-align: justify;
+    font-size: 20px;
+    background: #d1d2d2;
+	padding: 5px;
+	border-bottom: 10px solid gray;
+}
+/*All Pagination CSS*/
+.next-prev {
+	position: relative;
+	margin: 5px;
+	height: 40px;
+}
+.next-prev .prev {
+	position: absolute;
+	left: 0;
+}
+.next-prev .next {
+	position: absolute;
+	right: 0;
+}
+.next-prev .glyphicon {
+	top: 2px;
+}
+/*All Article CSS*/
+.bn-title {
+    padding: 5px;
+    font-size: 20px;
+}
+.bn-article {
+    text-align: justify;
+    font-size: 18px;
+}
+.bn-article p{
+	margin-bottom: 20px;
+}
+#end-line {
+    color: 
+    #0d5e71;
+    font-weight: bold;
+}
+@media only screen and (max-width: 767px) {
+	.hbo-left-talk {
+		font-size: 12px
+	}
+	.hbo-right-talk {
+		font-size: 12px;
+		display: none;
+	}
+	.page-title {
+		font-size: 20px;
+	}
+	.page-num {
+		width: 90px;
+	}
+}
+@media only screen and (min-width: 768px){
+	/*--- Full-screen Image -----*/
+	 .full-screen{
+		width: 100%;
+		height: 400px;
+	}
+	 .full-screen .lazy-image, .image.full-screen img{
+		width: 100%;
+		height: 350px;
+	}
+	
+	/*---- Full-screen Image Closed ----*/
+	/*----- Center-screen Image -----*/
+	.center-screen{
+		width: 70%;
+		height: 300px;
+		margin: 0 auto;
+	}
+	
+     .center-screen .lazy-image, .image.center-screen img{
+		width: 100%;
+		height: 250px;
+		margin: 0 auto;
+	}
+	/*----- Center-screen Image Closed -----*/
+	/*----- Left-screen Image -----*/
+	.left-screen{
+		width: 60%;
+		float: left;
+		padding: 5px 15px 5px 0px;
+		height: 300px;
+	}
+	.left-screen .lazy-image, .image.left-screen img{
+		width: 100%;
+		height: 250px;
+	}
+	
+	/*----- Left-screen Image Closed -----*/
+	/*----- Right-screen Image -----*/
+	.right-screen{
+		width: 60%;
+		float: right;
+		padding: 5px 5px 5px 15px;
+		height: 300px;
+	}
+	 .right-screen .lazy-image, .image.right-screen img{
+		width: 100%;
+		height: 250px;
+	}
+	
+	/*----- Right-screen Image Closed -----*/
+}
+/*closed*/
+
+
+
+
+
+
+/* Page One CSS */
+.page1 {
+    border: 2px solid black;
+    padding: 5px;
+}
+.page1-col-one {
+    background: #3c5399;
+	padding: 5px;
+}
+.pco1-heading {
+    text-align: center;
+    color: #ffce44;
+    font-size: 30px;
+    font-weight: bold;
+}
+.pco1-num ul{
+	list-style: none;
+}
+.pco1-num ul li {
+    background: #fff;
+    margin-top: 5px;
+    padding-left: 10px;
+}
+.page1-col-two h1 {
+	text-align: center;
+    padding: 10px;
+    color: #050538ed;
+}
+
+.index .index-title {
+    background: #15156f;
+	padding: 5px;
+	font-size: 30px;
+	color:#fff;
+	box-shadow: 2px 2px 2px 2px #0087ff;
+}
+.index ul{
+	padding-top: 10px;
+}
+.index ul li{
+	list-style: none;
+}
+.page1-desc p{
+	font-size: 18px;
+	padding: 5px;
+	text-align: justify;
+}
+@media only screen and (max-width: 767px) {
+	.pco1-heading {
+		font-size: 20px;
+	}
+	.page1-col-three img{
+		height: 300px;
+	}
+	.pco1-intro img {
+		height: 150px;
+	}
+}
+
+
+
+
+
+
+/*---- Page Two CSS -----*/
+.talk-title {
+    width: 200px;
+    margin: 0 auto;
+	margin-top: 0px;
+	margin-bottom: 0px;
+    background: #198215;
+	text-align: center;
+	font-size: 20px;
+	color:#fff;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.guru-advice {
+    margin-bottom: 50px;
+	margin-top: 10px;
+}
+.guru-icon img{
+	width: 100%;
+	height: 320px;
+}
+.member-comment {
+    margin-bottom: 50px;
+}
+.comment {
+    margin-top: 20px;
+}
+.talker {
+    font-weight: bold;
+    margin-top: 10px;
+}
+.general-talk {
+    padding-top: 5px;
+}
+@media only screen and (max-width: 767px) {
+	.guru-icon img {
+		width: 100%;
+		height: 220px;
+	}
+}
+
+
+/*----- Page Three CSS ------- */
+.pc-title h1 {
+    font-size: 30px;
+    padding-top: 50px;
+}
+.nbo {
+    display: block;
+    padding: 2px;
+    background: black;
+    border-radius: 50%;
+    width: 100%;
+    height: 220px;
+}
+.nbo img {
+    width: 99%;
+    height: 220px;
+    border-radius: 50%;
+}
+.pc-article {
+    text-align: justify;
+    font-size: 20px;
+    color: #090739;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.pc-info {
+    text-align: center;
+    float: right;
+}
+.papericon {
+    width: 300px;
+    margin: 0 auto;
+    padding: 5px;
+}
+.papericon img{
+	width: 300px;
+	height: 350px;
+}
+.about-paper {
+    text-align: justify;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.about {
+    background: #d2d7f2;
+    padding: 5px;
+}
+@media only screen and (max-width: 767px) {
+	.papericon {
+		width: 100%;
+		padding: 0;
+	}
+	.papericon img {
+		width: 100%;
+	}
+	.nbo {
+		width: 300px;
+		margin: 0 auto;
+		height: 320px;
+	}
+	.nbo img {
+		width: 300px;
+		height: 320px;
+		border-radius: 50%;
+	}
+}
+@media only screen and (max-width: 767px){
+	/*--- Full-screen Image -----*/
+	.article-body .full-screen{
+		width: 100%;
+	}
+	.article-body .full-screen .lazy-image, .article-body .image.full-screen img{
+		width: 100%;
+		height: 200px;
+	}
+	/*---- Full-screen Image Closed ----*/
+	/*----- Center-screen Image -----*/
+	.article-body .center-screen{
+		width: 100%;
+		height: 250px;
+		margin: 0 auto;
+	}
+	.article-body .center-screen .lazy-image, .article-body .image.center-screen img{
+		width: 100%;
+		height: 200px;
+		margin: 0 auto;
+	}
+	
+	/*----- Center-screen Image Closed -----*/
+	/*----- Left-screen Image -----*/
+	.article-body .left-screen{
+		width: 100%;
+		padding: 5px 15px 5px 0px;
+		height: 250px;
+	}
+	.article-body .left-screen .lazy-image, .article-body .image.left-screen img{
+		width: 100%;
+		height: 200px;
+	}
+	
+	/*----- Left-screen Image Closed -----*/
+	/*----- Right-screen Image -----*/
+	.article-body .right-screen{
+		width: 100%;
+		padding: 5px 5px 5px 0px;
+		height: 250px;
+	}
+	.article-body .right-screen .lazy-image, .article-body .image.right-screen img{
+		width: 100%;
+		height: 200px;
+	}
+	
+	/*----- Right-screen Image Closed -----*/
+}
+@media only screen and (min-width: 768px){
+	/*--- Full-screen Image -----*/
+	.article-body .full-screen{
+		width: 100%;
+		height: 400px;
+	}
+	.article-body .full-screen .lazy-image, .article-body .image.full-screen img{
+		width: 100%;
+		height: 350px;
+	}
+	
+	/*---- Full-screen Image Closed ----*/
+	/*----- Center-screen Image -----*/
+	.article-body .center-screen{
+		width: 70%;
+		height: 300px;
+		margin: 0 auto;
+	}
+	
+	.article-body .center-screen .lazy-image, .article-body .image.center-screen img{
+		width: 100%;
+		height: 250px;
+		margin: 0 auto;
+	}
+	/*----- Center-screen Image Closed -----*/
+	/*----- Left-screen Image -----*/
+	.article-body .left-screen{
+		width: 60%;
+		float: left;
+		padding: 5px 15px 5px 0px;
+		height: 300px;
+	}
+	.article-body .left-screen .lazy-image, .article-body .image.left-screen img{
+		width: 100%;
+		height: 250px;
+	}
+	
+	/*----- Left-screen Image Closed -----*/
+	/*----- Right-screen Image -----*/
+	.article-body .right-screen{
+		width: 60%;
+		float: right;
+		padding: 5px 5px 5px 15px;
+		height: 300px;
+	}
+	.article-body .right-screen .lazy-image, .article-body .image.right-screen img{
+		width: 100%;
+		height: 250px;
+	}
+	
+	/*----- Right-screen Image Closed -----*/
+	
+	
+}
+/*closed*/

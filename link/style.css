@@ -1,0 +1,932 @@
+/*
+	Name: style.css
+	version: 1.0
+	Display: Home Page
+	For : Index.php
+*/
+.lazy-image{
+	display: block;
+    overflow: hidden;
+    background: url("/img/lazy.png") center center no-repeat #b5b5b3;
+    background-size: contain;
+	width: 100%;
+	height: 100%;
+}	
+.news-link-overly:hover{
+	opacity: 0.7;
+}
+@media only screen and (min-width: 767px){
+	.lpd5{
+		padding: 5px;
+	}
+	.lpd0{
+		padding: 0;
+	}
+}
+/*---- For Main-News-Design -----*/
+.main-news-section{
+	padding-top: 24px!important;
+}
+.main-news{
+	position: relative;
+	padding: 5px;
+}
+.main-news img, .main-news .lazy-image{
+	width: 100%;
+	height: 300px;
+}
+@media only screen and (max-width: 992px){
+	.main-news img, .main-news .lazy-image{
+		width: 100%;
+		height: 250px;
+	}
+}
+@media only screen and (max-width: 992px){
+	.main-news img, .main-news .lazy-image{
+		width: 100%;
+		height: 250px;
+	}
+}
+@media only screen and (max-width: 767px){
+	.main-news img, .main-news .lazy-image{
+		width: 100%;
+		height: 350px;
+	}
+}
+@media only screen and (max-width: 667px){
+	.main-news img, .main-news .lazy-image{
+		width: 100%;
+		height: 300px;
+	}
+}
+@media only screen and (max-width: 567px){
+	.main-news img, .main-news .lazy-image{
+		width: 100%;
+		height: 250px;
+	}
+}
+@media only screen and (max-width: 400px){
+	.main-news img, .main-news .lazy-image{
+		width: 100%;
+		height: 180px;
+	}
+}
+.main-news a h2:hover{
+	color:gray;
+	opacity: 0.8px;
+}
+.main-news a h3:hover{
+	color:black;
+	opacity: 0.8px;
+}
+.main-news h2{
+	position: absolute;
+	bottom: 30px;
+	left: 10px;
+	color: #fff;
+	font-size: 30px;
+	
+}
+
+/*---- Closed -----*/
+
+/*---- First-Sub-News-Design -----*/
+.main-sub-news{
+	padding: 5px;
+	position: relative;
+	border-top: 1px solid #e2dcdc;
+	background: #fff;
+	overflow: hidden;
+}
+
+.main-sub-news h3{
+	font-size: 16px;
+}
+@media only screen and (max-width: 767px){
+	.cc-md-7{
+		-webkit-box-flex: 0;
+		-ms-flex: 0 0 100%;
+		flex: 0 0 100%;
+		max-width: 100%;
+		position: relative;
+	}
+	.cc-md-5{
+		-webkit-box-flex: 0;
+		-ms-flex: 0 0 100%;
+		flex: 0 0 100%;
+		max-width: 100%;
+		position: relative;
+	}
+	.main-sub-news img, .main-sub-news .lazy-image{
+		width: 100%;
+		height: 150px;
+	}
+}
+@media only screen and (max-width: 400px){
+	.main-sub-news img, .main-sub-news .lazy-image{
+		width: 100%;
+		height: 100px;
+	}
+}
+@media only screen and (min-width: 768px){
+	.cc-md-7{
+		-webkit-box-flex: 0;
+		-ms-flex: 0 0 60%;
+		flex: 0 0 60%;
+		max-width: 60%;
+		position: relative;
+		width: 100%;
+		min-height: 1px;
+		padding-left: 5px;
+	}
+	.cc-md-5{
+		-webkit-box-flex: 0;
+		-ms-flex: 0 0 40%;
+		flex: 0 0 40%;
+		max-width: 40%;
+		position: relative;
+		width: 100%;
+		min-height: 1px;
+		padding-right: 5px;
+	}
+	.main-sub-news img, .main-sub-news .lazy-image{
+		width: 100%;
+		height: 70px;
+	}
+}
+
+/*---- Closed -----*/
+
+
+
+/*------ Sub News Section Two Cloumn Design -------*/
+				/*----- Column One ---*/
+.sub-news-section{
+	padding-bottom: 24px!important;
+	padding-top: 24px!important;
+}
+.cc-md-6{
+	-webkit-box-flex: 0;
+	-ms-flex: 0 0 50%;
+	flex: 0 0 50%;
+	max-width: 50%;
+	position: relative;
+	width: 100%;
+	min-height: 1px;
+	padding-left: 5px;
+	padding-right: 5px;
+	margin-bottom: 15px;
+}
+.cc-md-6 .each-news {
+
+    width: 100%;
+    overflow: hidden;
+    height: 100%;
+    margin-bottom: 24px;
+    background: #fff;
+    border-bottom: 1px solid #d7d4d4;
+
+}
+.sub-news-section .news-title-holder h2{
+	font-size: 20px;
+    color: #000;
+    margin-bottom: 10px;
+    font-weight: bold;
+    word-wrap: break-word;
+	
+}
+.sub-news-section .col-md-5 img, .sub-news-section .col-md-5 .lazy-image{
+	width: 100%;
+	height: 150px;
+}
+.news-category-holder .dash::before {
+
+    content: ' ';
+    overflow: hidden;
+    width: 2px;
+    height: 13px;
+    float: left;
+    margin-top: 3px;
+    margin-right: 8px;
+    background: #d84315;
+
+}
+.sub-news-section .info{
+	background: #fff;
+	padding: 5px;
+}
+.news-category-holder{
+	position: absolute;
+	bottom: 8px;
+	font-size: 14px;
+	line-height: 20px;
+	color: #666;
+	overflow: hidden;
+	z-index: 2;
+}
+@media only screen and (max-width: 767px){
+	.sub-news-section .news-title-holder h2{
+		font-size: 16px;
+		
+	}
+}
+@media only screen and (max-width: 400px){
+	.sub-news-section .col-md-5 img, .sub-news-section .col-md-5 .lazy-image{
+		width: 100%;
+		height: 100px;
+	}
+}
+/*-------- Closed ----------*/
+
+
+/*------ Parbatta News Row Design ------*/
+.parbatta-news .all-location img, .parbatta-news .all-location .lazy-image{
+	width: 100%;
+	height: 70px;
+}
+.parbatta-news .pnc{
+	margin-bottom: 15px;
+}
+@media only screen and (max-width: 767px){
+	.parbatta-news .all-location img, .parbatta-news .all-location .lazy-image{
+		width: 100%;
+		height: 250px;
+	}
+	.parbatta-news .pnc {
+		background: #7d81823d;
+		border-bottom: 1px solid #c7c5c5;
+
+	}
+}
+@media only screen and (max-width: 400px){
+	.parbatta-news .all-location img, .parbatta-news .all-location .lazy-image{
+		width: 100%;
+		height: 150px;
+	}
+}
+
+/*----- Closed ------*/
+
+
+
+
+/*----- Buddhist News Row Design ---------*/
+@media only screen and (max-width: 767px){
+	.article-one .outer-big img, .article-one .outer-big .lazy-image{
+		width: 100%;
+		height: 250px;
+	}
+	 .article-one .outer-small img, .article-one .outer-small .lazy-image{
+		width: 100%;
+		height: 150px;
+	}
+}
+@media only screen and (max-width: 400px){
+	.article-one .outer-big img, .article-one .outer-big .lazy-image{
+		width: 100%;
+		height: 150px;
+	}
+	.article-one .outer-small img, .article-one .outer-small .lazy-image{
+		width: 100%;
+		height: 100px;
+	}
+}
+@media only screen and (min-width: 768px){
+	.article-one .outer-big img, .article-one .outer-big .lazy-image{
+		width: 100%;
+		height: 180px;
+	}
+	 .article-one .outer-small img, .article-one .outer-small .lazy-image{
+		width: 100%;
+		height: 100px;
+	}
+	.nrd-col-md-4{
+		-webkit-box-flex: 0;
+		-ms-flex: 0 0 33.333333%;
+		flex: 0 0 33.333333%;
+		max-width: 33.333333%;
+		position: relative;
+		width: 100%;
+		min-height: 1px;
+		padding-right: 15px;
+	}
+	.nrd-col-md-3{
+		-webkit-box-flex: 0;
+		-ms-flex: 0 0 25%;
+		flex: 0 0 25%;
+		max-width: 25%;
+		position: relative;
+		width: 100%;
+		min-height: 1px;
+		padding-right: 15px;
+	}
+	.article-one .col-md-8 .titlebar{
+		margin-right: 15px;
+	}
+}
+/*------- Closed -------*/
+/*------- Poll CSS ---------*/
+.poll_container {
+    font-size: 16px;
+    line-height: 24px;
+    overflow: hidden;
+    background: #424242;
+    color: #fff;
+    padding: 0 5%;
+}
+.pb10 {
+    padding-bottom: 10px;
+}
+
+.mb10 {
+    margin-bottom: 10px;
+}
+.poll_top_part {
+    border-bottom: 1px solid #cdcbcb;
+}
+.poll_question {
+    padding-top: 10px;
+    font-size: 20px;
+    line-height: 28px;
+    color: #FFCA28;
+	text-align: left;
+}
+.poll_question, .total_vote {
+    font-weight: 700;
+}
+.poll_container #jwPollAjaxWorking {
+    font-size: 16px;
+    line-height: 24px;
+    color: #f5f7f9;
+}
+.poll_button {
+    overflow: hidden;
+    padding-bottom: 20px;
+     margin-bottom: 0;
+}
+.fl {
+    float: left;
+}
+.poll_bottom {
+    overflow: hidden;
+    margin-bottom: 10px;
+}
+.result_button a {
+    background: #ffc107;
+    text-align: center;
+    color: #333;
+    border-radius: 3px;
+    padding: 0 24px;
+}
+.old_result a, .result_button a {
+    line-height: 25px;
+    display: block;
+    text-decoration: none;
+}
+.old_result a {
+    background: 0 none;
+    color: #fff;
+    text-align: center;
+    border-bottom: 1px solid #d0d0d0;
+}
+.result_button {
+    height: 25px;
+    margin-right: 14px;
+}
+.old_result {
+    height: 25px;
+    float: left;
+    padding: 0 24px;
+}
+.total_vote_container {
+    border-bottom: 0;
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+.poll_container label {
+    color: #ffe084;
+}
+
+.poll_container label {
+    margin-right: 10px;
+    float: left;
+    overflow: hidden;
+}
+.poll_container label input {
+    margin-right: 5px;
+    margin-top: 7px;
+    float: left;
+}
+.old_result:hover>a{
+	background: gray;
+	color: white;
+}
+#submit_the_poll:hover>a{
+	background: gray;
+	color: white;
+}
+/*------ Closed --------*/
+
+/*---------- Buddhistmind News Row Design ---------*/
+.article-two{
+	background: #f0f0ed;
+	position: relative;
+	padding-top: 24px !important;
+	padding-bottom: 24px !important;
+}
+
+@media only screen and (min-width: 768px) {
+	.bnrd-col-md-6{
+		-webkit-box-flex: 0;
+		-ms-flex: 0 0 50%;
+		flex: 0 0 50%;
+		max-width: 50%;
+		position: relative;
+		width: 100%;
+		min-height: 1px;
+		padding-right: 15px;
+	}
+}
+.bnrd-col-md-6 .col-md-12{
+	border-bottom: 1px solid #e2dcdc;
+	background: #fff;
+}
+.bnrd-col-md-6{
+	background: #fff;
+}
+.article-two .outer-small, .article-two .outer-big{
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
+@media only screen and (max-width: 767px){
+	.article-two .outer-big img, .article-two .outer-big .lazy-image{
+		width: 100%;
+		height: 250px;
+	}
+	 .article-two .outer-small img, .article-two .outer-small .lazy-image{
+		width: 100%;
+		height: 150px;
+	}
+}
+@media only screen and (max-width: 400px){
+	.article-two .outer-big img, .article-two .outer-big .lazy-image{
+		width: 100%;
+		height: 150px;
+	}
+	.article-two .outer-small img, .article-two .outer-small .lazy-image{
+		width: 100%;
+		height: 100px;
+	}
+}
+@media only screen and (min-width: 768px){
+	.article-two .outer-big img, .article-two .outer-big .lazy-image{
+		width: 100%;
+		height: 200px;
+	}
+	 .article-two .outer-small img, .article-two .outer-small .lazy-image{
+		width: 100%;
+		height: 80px;
+	}
+}	
+/*------- Closed -------------*/
+
+/*------- BCS News Rows Design -------*/
+.article-five{
+	background: #f0f0ed;
+	position: relative;
+	padding-top: 24px !important;
+	padding-bottom: 24px !important;
+}
+.article-five .col-md-4{
+	background: #fff;
+	overflow: hidden;
+}
+.article-five .listing .col-in{
+	width: 100%;
+	position: relative;
+	margin: 0;
+    padding: 8px 0;
+	background: #fff;
+	border-top: 1px solid #ccc;
+}
+
+.article-five .info{
+	background: #fff;
+}
+.bcs-news .bcs-big img, .bcs-news .bcs-big .lazy-image{
+	width: 100%;
+	height: 200px;
+}
+/*-------- Closed --------*/
+
+/*------ Article Seven Multimedia Rows Design -------*/
+.gallery .each-row {
+   padding-left: 0;
+}
+.gallery .each-row img, .gallery .each-row .lazy-image{
+    width: 100%;
+	height: 150px;
+}
+.each-row .title{
+	font-weight: 400;
+	font-size: 17px;
+	line-height: 20px;
+	word-wrap: break-word;
+	font-family: Kiron, SolaimanLipi, Arial, Vrinda, FallbackBengaliFont, Helvetica, sans-serif !important;
+}
+
+@media only screen and (min-width: 768px){
+	.article-seven .titlebar{
+		margin-right: 15px;
+	}
+}
+@media only screen and (max-width: 767px){
+	.article-seven .gallery {
+		padding-left: 15px;
+	}
+}
+@media only screen and (max-width: 500px){
+	.gallery .each-row img, .gallery .each-row .lazy-image{
+		width: 100%;
+		height: 100px;
+	}
+}
+
+
+
+
+
+
+
+
+/*------ Closed --------*/
+.news-link-overly .info{
+	padding: 5px;
+}
+.section_one{
+	background: #f0f0ed;
+	position: relative;
+}
+.section_one{
+	position: relative;
+}
+.spacer{
+	padding: 20px;
+}
+.tabs{
+	margin-top: 0px;
+}
+
+
+/*------ Body Time Design ------*/
+.body-timebar{
+	padding: 15px;
+	font-size: 14px;
+}
+.body-timebar .date-year, .body-timebar .location, .body-timebar .update-time {
+    margin-right: 16px;
+}
+.location:before{
+	font-family: 'Glyphicons Halflings';
+	content: "\e185";
+	margin-right: 4px;
+}
+.date-year:before{
+	font-family: 'Glyphicons Halflings';
+	content:"\e109";
+	margin-right: 4px;
+}
+.update-time:before{
+	font-family: 'Glyphicons Halflings';
+	content: "\e031";
+	margin-right: 4px;
+}
+/*-------- Closed -------*/
+
+
+/*---- Voting Design -----*/
+
+/*---------- Closed ------*/
+
+
+/*--------- Opinion News Row Design --------*/
+.article-four{
+	padding-top: 24px !important;
+	padding-bottom: 24px !important;
+}
+.article-four .col-md-3{
+	border-left: 3px solid #ccc;
+    padding-bottom: 8px;
+}
+.article-four .news-additional .glyphicon-comment{
+	font-size: 18px;
+}
+.article-four .news-additional .glyphicon-comment:before{
+	font-size: 12px;
+}
+@media only screen and (max-width: 767px){
+	.article-four .col-md-3{
+		border-left: 0 none;
+		border-bottom: 3px solid #ccc;
+	}
+	.article-four .col-md-3 .news-summery-holder{
+		display: none;
+		
+	}
+}
+/*------ Closed -------*/
+
+
+
+/*-------- Article Six News Row Design ------*/
+.article-six{
+	background: #f0f0ed;
+	position: relative;
+	padding-top: 24px !important;
+	padding-bottom: 24px !important;
+}
+
+.article-six .listing .col-in{
+	width: 100%;
+	position: relative;
+	margin: 0;
+    padding: 8px 0;
+	background: #fff;
+	border-bottom: 1px solid #ccc;
+}
+
+.article-six .info{
+    padding: 0 8px;
+}
+/*---- Closed -----*/
+
+
+
+
+
+
+
+/*----  For Custom Advertisement Design -----  */
+.add-show{
+	position: relative;
+	padding: 0;
+	display: block;
+	overflow: hidden;
+}
+.add-show:hover{
+	opacity: 0.9;
+}
+.add-show .adds-title{
+	position: absolute;
+	bottom: 70px;
+	padding: 10px;
+}
+.ads-icon{
+	color: white;
+	width: 20px;
+	padding: 2px;
+	background-color: #f5152f;
+	position: absolute;
+	right: 0;
+	top: 0;
+	font-size: 10px;
+	border-radius: 50%;
+}
+.ads-icon:hover{
+	color: black;
+	background-color: white;
+}
+/*---- Close -----  */
+
+
+/*---- For News Relate Rows Design ----*/
+.news-relate .each-news {
+	position: relative;
+	width: 100%;
+	overflow: hidden;
+	height: 100%;
+	margin-bottom: 24px;
+}
+.news-relate .each-news:hover{
+	opacity: 0.9
+}
+.news-relate .news-title{
+	padding: 5px;
+}
+.news-relate .news-title-holder h2{
+	font-weight: 400;
+	font-size: 22px;
+	line-height: 28px;
+	word-wrap: break-word;
+	font-family: Kiron, SolaimanLipi, Arial, Vrinda, FallbackBengaliFont, Helvetica, sans-serif !important;
+}
+.news-relate .news-summery-holder{
+	color: #333;
+	margin-bottom: 10px;
+	word-wrap: break-word;
+	font-size: 16px;
+}	
+.news-relate .news-date-holder{
+	position: absolute;
+	bottom: 8px;
+	font-size: 14px;
+	line-height: 20px;
+	color: #666;
+	overflow: hidden;
+	z-index: 2;
+}
+.news-date-holder:before{
+	background-image: url('../img/time.png');
+	background-size: 10px;
+	display: inline-block;
+	width: 10px;
+	height: 10px;
+	content: " ";
+	margin-right: 3px;
+}
+/*----- Closed -----*/
+
+
+
+
+/*------ For Last-News Design   -------*/
+
+.last-news{
+	border-bottom: 1px solid #e2e2e2;
+    padding-bottom: 24px;
+    padding-top: 24px;
+}
+.last-news .col-5,.last-news .col-7{
+	padding-left: 0px;
+}
+.last-news img{
+	width: 100%;
+	height: 124px;
+}
+.last-news .news-date-holder{
+	font-size: 14px;
+    line-height: 20px;
+    color: #666;
+    z-index: 2;
+}
+@media only screen and (max-width: 767px) {
+	.last-news img{
+		width: 100%;
+		height: 100%;
+	}
+	.last-news .news-summery-holder{
+		display: none;
+	}
+}
+/*------ Closed ------*/
+
+
+/*------- For Pictures Thumbnail Design ---------*/
+	.news-multimedia .col-6{
+		margin-top: 20px;
+	}
+	.multimedia-name h2{
+		color: #4a4a4a;
+		font-weight: 400;
+		margin-bottom: 16px;
+		line-height: 32px;
+		font-size: 26px;
+		margin-left: 15px;
+	}
+	.multimedia-name h2:before{
+		content: ' ';
+		width: 4px;
+		height: 24px;
+		float: left;
+		margin-top: 4px;
+		margin-right: 4px;
+		background: #d84315;
+	}
+	.thumbnail-link{
+		padding: 5px;
+	}
+	.thumbnail{
+		position: relative;
+		background: #f6f6f6;
+		display: block;
+		overflow: hidden;
+	}
+	.thumbnail img{
+		opacity: 0.5;
+	}
+	.thumbnail img:hover{
+		opacity: 0.9;
+	}
+	.picture-icon,.video-icon{
+		position: absolute;
+		left: 0px;
+		top: 0px;
+		height: 40px;
+		padding: 5px;
+		background: #d2d2d2;
+		font-size: 30px;
+		opacity: 0.8;
+	}
+/*------- Closed -------*/
+
+
+/*---------- More Link Design ---------*/
+	.bottom{
+		margin-top: 30px;
+		margin-bottom: 30px;
+		text-align: center;
+	}
+	.bottom .more-link:hover{
+		background: #d0dde1;
+	}
+	.bottom .more-link{
+		background: #ebebeb;
+		color: #000;
+		border: 1px solid #ccc;
+		text-decoration: none;
+		cursor: pointer;
+		padding: 12px 90px;
+		font-size: 20px;
+		border-radius: 4px;
+	}
+/*-------- Closed ----------*/
+/*------- All Design Mobile -------*/
+@media only screen and (max-width: 767px){
+	.pd5{
+		padding: 5px;
+	}
+	.pd0{
+		padding: 0;
+	}
+	.news{
+		padding: 5px;
+	}	
+	.news-nav{
+		display: none;
+	}
+	.breadcrumb{
+		background: #f6f6f6;
+	}
+	.author{
+		font-size: 18px;
+	}
+	.time:before{
+		background-image: url('../img/time.png');
+		background-size: 10px;
+		display: inline-block;
+		width: 10px;
+		height: 10px;
+		content: " ";
+		margin-right: 3px;
+	}
+	.author:before{
+		background-image: url('../img/man.png');
+		background-size: 10px;
+		display: inline-block;
+		width: 10px;
+		height: 10px;
+		content: " ";
+		margin-right: 3px;
+	}
+	.view:before{
+		background-image: url('../img/view.png');
+		background-size: 10px;
+		display: inline-block;
+		width: 10px;
+		height: 10px;
+		content: " ";
+		margin-right: 3px;
+	}
+	.left-part .additional{
+		margin-bottom: 50px;
+	}
+	.news-sub{
+		padding: 0px;
+	}
+	
+	.add-show{
+		display: none;
+	}
+	.news-relate img{
+		height: 100px;
+	}
+	.news-relate .news-title{
+		margin-bottom: 5px;
+	}
+	.news-relate .news-title h2{
+		font-size: 15px;
+		line-height: normal;
+	}
+	.news-relate .news-summery-holder{
+		display: none;
+	}
+	.last-news h2{
+		font-size: 18px;
+	}
+	.last-news img{
+		width: 100%;
+		height: 100px;
+	}
+	
+}
+/*----- Closed -----*/

@@ -1,0 +1,88 @@
+.new-col{
+	padding: 5px;
+}
+.titlebar{
+	font-weight: 400;
+	line-height: 32px;
+	font-size: 26px;
+}
+.titlebar:before{
+	content: ' ';
+	width: 4px;
+	height: 29px;
+	float: left;
+	margin-right: 4px;
+	background: #d84315;
+}
+.page-other img{
+	width: 100%;
+	height: 100px;
+}
+.page-other .title-holder h2{
+	font-size: 18px;
+	line-height: 24px;
+	margin-bottom: 0;
+	font-weight: 400;
+}
+.news-link-overly:hover{
+	opacity: 0.9;
+	color: #007bff;
+}
+.page-other .title-bar{
+	padding-top: 20px;
+}
+.page-other .title-bar:before{
+	content: ' ';
+	width: 4px;
+	height: 24px;
+	float: left;
+	margin-right: 4px;
+	background: #d84315;
+}
+/*------- Most Popular -------*/
+.most-popular ul li{
+	list-style-type: none;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	border-bottom: 1px solid #ccc;
+	line-height: 24px;
+}
+.most-popular ul li a{
+	display: block;
+	text-decoration: none;
+	line-height: 28px;
+	color: #000;
+	overflow: hidden;
+	padding: 8px 10px;
+}
+.most-popular ul li a .icon{
+	float: right;
+}
+/*------- Closed -------*/
+/*----- paginations Design -------*/
+.paginations{
+	overflow: hidden;
+	line-height: 32px;
+	text-align: center;
+	width: 100%;
+	margin-top: 50px;
+	margin-bottom: 50px;
+}
+.paginations .previous-page, .paginations .next-page{
+	background: #ebebeb;
+	color: #6f6e6e;
+	border: 1px solid #ccc;
+	float: none;
+	padding: 12px 40px;
+	font-size: 20px;
+}
+.paginations a,.paginations span{
+	border-radius: 4px;
+	display: inline-block;
+	margin-left: 4px;
+}
+.paginations a:hover{
+	background: #dddfdf;
+	color: #000;
+}
+/*----- Closed -------*/

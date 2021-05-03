@@ -1,0 +1,5 @@
+RewriteEngine On
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^article/([0-9]+)/([^/\.]+)?$  article.php?id=$1&title=$2 [QSA,L]
+RewriteRule ^page/([0-9]+)$  page.php?page=$1 [QSA,L]

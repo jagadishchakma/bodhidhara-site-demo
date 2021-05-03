@@ -1,0 +1,80 @@
+/*
+*
+*	CSS / jQuery animated Ticker
+*
+*	author	Dinko Skopljak
+*	web     https://futura-web.de
+*	email	ds@futura-web.de
+*
+*	CSS
+*
+*/
+
+
+.ticker{
+    display: flex;
+    padding-left: 100%;
+    overflow: hidden;
+    z-index: 1;
+    border-color: #ddd;
+    height: 50px;
+	line-height: 44px;
+    border-radius: 2px;
+    border-width: 1px;
+	position: relative;
+	background: #f5f5f5;
+	
+}
+
+.bn-label {
+    left: 0;
+    top: 0;
+    bottom: 0;
+    height: 100%;
+    position: absolute;
+    background-color: #d46034;
+    text-align: center;
+    color: #f9f2f2;
+    font-weight: bold;
+    z-index: 3;
+    padding: 0 15px;
+    white-space: nowrap;
+	line-height: 44px;
+}	
+.ticker ul{
+    display: flex;
+    list-style-type: none;
+}
+
+.ticker ul li{
+    margin-left: 2rem;
+    white-space: nowrap;
+	font-weight: bold;
+}
+.ticker ul li a{
+    color: black;
+	font-weight: bold;
+}
+.ticker ul li a:hover{
+    color: blue;
+	font-weight: bold;
+}
+.ticker ul li:before{
+	font-family:'Glyphicons Halflings';
+	content:"\e127";
+	margin-right: 5px;
+	color: green;
+}
+
+.ticker ul li:first-child{
+    padding-left: 0;
+}
+.ticker ul li a{
+	color: black;
+}
+@media only screen and (min-width: 768px){
+	.breaking-widget .container{
+		padding-left: 15px;
+		padding-right: 15px;
+	}
+}

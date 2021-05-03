@@ -1,0 +1,102 @@
+/*
+Author: jqueryscript.net
+version: 1.0
+*/
+
+#newsfeed{
+	padding-top: 12px;
+	padding-left: 5px;
+}
+/* Core */
+.tgl-sw {
+    display: none;
+}
+.tgl-sw,
+.tgl-sw:after,
+.tgl-sw:before,
+.tgl-sw *,
+.tgl-sw *:after,
+.tgl-sw *:before,
+.tgl-sw + .btn-switch {
+    box-sizing: border-box;
+}
+.tgl-sw::-moz-selection,
+.tgl-sw:after::-moz-selection,
+.tgl-sw:before::-moz-selection,
+.tgl-sw *::-moz-selection,
+.tgl-sw *:after::-moz-selection,
+.tgl-sw *:before::-moz-selection,
+.tgl-sw + .btn-switch::-moz-selection {
+    background: none;
+}
+.tgl-sw::selection,
+.tgl-sw:after::selection,
+.tgl-sw:before::selection,
+.tgl-sw *::selection,
+.tgl-sw *:after::selection,
+.tgl-sw *:before::selection,
+.tgl-sw + .btn-switch::selection {
+    background: none;
+}
+.tgl-sw + .btn-switch {
+    outline: 0;
+    display: block;
+    width: 4em;
+    height: 2em;
+    position: relative;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+.tgl-sw + .btn-switch:after,
+.tgl-sw + .btn-switch:before {
+    position: relative;
+    display: block;
+    content: "";
+    width: 50%;
+    height: 100%;
+}
+.tgl-sw + .btn-switch:after {
+    left: 0;
+}
+.tgl-sw + .btn-switch:before {
+    display: none;
+}
+.tgl-sw-active + .btn-switch:after {
+    left: 50%;
+}
+
+
+/* Android */
+.tgl-sw-android + .btn-switch {
+    position: relative;
+    display: block;
+    height: 22px;
+    width: 52px;
+    background: #ccc;
+    border-radius: 100px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+.tgl-sw-android + .btn-switch:after {
+    position: absolute;
+    left: -2px;
+    top: -5px;
+    display: block;
+    width: 30px;
+    height: 30px;
+    border-radius: 100px;
+    background: #f2f5f6;
+    box-shadow: 0 3px 3px rgba(0,0,0,0.05);
+    content: '';
+    transition: all 0.3s ease;
+}
+.tgl-sw-android-checked + .btn-switch {
+    background: #AAB3B5;
+}
+.tgl-sw-android-checked + .btn-switch:after {
+    left: 25px;
+    background: #336495;
+}
